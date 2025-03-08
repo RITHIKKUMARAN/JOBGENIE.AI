@@ -60,7 +60,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Gemini API Helper Function with Retry and Increased Timeout ---
-def call_gemini_api(prompt, api_key="AIzaSyBFAZbDq0cUKULPMTcZfoiJA5WxpbIscRQ", max_retries=3, backoff_factor=0.5, timeout=30):
+def call_gemini_api(prompt, api_key="Enter your api key", max_retries=3, backoff_factor=0.5, timeout=30):
     url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
     session = requests.Session()
     
