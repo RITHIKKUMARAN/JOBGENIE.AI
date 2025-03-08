@@ -1,0 +1,6 @@
+streamlit
+nltk
+requests
+PyPDF2
+transformers
+reportlab
